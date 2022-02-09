@@ -7,8 +7,7 @@ class Battle < Sinatra::Base
   end
 
 get '/' do
-  # "Testing infrastructure working!"
-  erb :index
+erb :index
 end
 
 post '/names' do
