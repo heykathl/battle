@@ -7,7 +7,7 @@ class Battle < Sinatra::Base
   end
 
 get '/' do
-  "Hello Battle!"
+  "Testing infrastructure working!"
 end
 
   # to start server when ruby app.rb is called

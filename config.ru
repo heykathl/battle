@@ -1,3 +1,3 @@
-# runs sinatra app with 'rackuo'
+# runs sinatra app with 'rackup'
 require './app'
 run Battle
