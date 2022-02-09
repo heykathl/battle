@@ -27,6 +27,11 @@ get '/play' do
   erb :play
 end
 
+post '/attack' do
+  @player_2 = session[:Player_2]
+  erb :attack
+end
+
   # to start server when ruby app.rb is called
   run! if app_file == $0
 end
